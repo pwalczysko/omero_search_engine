@@ -25,31 +25,13 @@ Table of Contents
 # Posted by Özer
 # Retrieved 2026-03-11, License - CC BY-SA 3.0
 
-Fixed list example
-------------------
-
-#. First do spam
-#. Then do ``eggs``:
-
-   .. code-block:: python
-
-      some_code_stuff()
-
-   .. note::
-
-      Nobody expects the Spanish Inquisistion
-
-#. Then do spam and ``eggs``.
-
-
-
 Introduction
 ------------
 IDR Searcher is an Elasticsearch-based search engine developed for `IDR <idr.openmicroscopy.org>`_  (Image Data Resource) to index and analyse metadata stored as key–value pairs. It supports both simple lookups and complex queries across large datasets, with synchronous and asynchronous search capabilities.
 
 The system connects directly to OMERO databases, which run on PostgreSQL and also supports CSV data sources, see `supported CSV format <https://github.com/ome/omero_search_engine/tree/main/omero_search_engine/cache_functions/elasticsearch/csv_templates>`_. All functionality is exposed through REST APIs (GET/POST) using JSON.
 
-  .. note::
+  .. code-block::
 
       IDR Searcher ignores the OMERO permissions system.
       It assumes that all data to be indexed
