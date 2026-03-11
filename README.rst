@@ -20,6 +20,16 @@ Table of Contents
 - `Public data note <#Note-on-public-data>`_
 - `License <#License>`_
 
+.. note::
+
+   This is the text for the note box.
+   It can span multiple lines.
+
+   * It can also contain lists.
+   * And code snippets.
+
+
+
 Introduction
 ------------
 IDR Searcher is an Elasticsearch-based search engine developed for `IDR <idr.openmicroscopy.org>`_  (Image Data Resource) to index and analyse metadata stored as key–value pairs. It supports both simple lookups and complex queries across large datasets, with synchronous and asynchronous search capabilities.
