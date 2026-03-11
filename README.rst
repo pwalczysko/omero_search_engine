@@ -27,7 +27,7 @@ IDR Searcher is an Elasticsearch-based search engine developed for `IDR <idr.ope
 
 The system connects directly to OMERO databases, which run on PostgreSQL and also supports CSV data sources, see `supported CSV format <https://github.com/ome/omero_search_engine/tree/main/omero_search_engine/cache_functions/elasticsearch/csv_templates>`_. All functionality is exposed through REST APIs (GET/POST) using JSON.
 
-  .. code-block::
+  .. note::
 
       IDR Searcher ignores the OMERO permissions system.
       It assumes that all data to be indexed
