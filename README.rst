@@ -20,13 +20,13 @@ Table of Contents
 - `Public data note <#Note-on-public-data>`_
 - `License <#License>`_
 
-.. note::
+  .. note::
 
-   This is the text for the note box.
-   It can span multiple lines.
+    This is the text for the note box.
+    It can span multiple lines.
 
-   * It can also contain lists.
-   * And code snippets.
+    * It can also contain lists.
+    * And code snippets.
 
 
 
