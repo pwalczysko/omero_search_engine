@@ -35,7 +35,7 @@ The system connects directly to OMERO databases, which run on PostgreSQL and als
 
 .. code-block::
 
-    ⚠️ **Warning:** IDR Searcher ignores the OMERO permissions system.
+    ⚠️ IDR Searcher ignores the OMERO permissions system.
     It assumes that all data to be indexed and all indexed data are publicly available.
     Do not run IDR Searcher on authenticated/private OMERO instances.
 
