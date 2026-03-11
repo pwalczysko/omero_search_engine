@@ -21,6 +21,28 @@ Table of Contents
 - `License <#License>`_
 
 
+# Source - https://stackoverflow.com/a/42372142
+# Posted by Özer
+# Retrieved 2026-03-11, License - CC BY-SA 3.0
+
+Fixed list example
+------------------
+
+#. First do spam
+#. Then do ``eggs``:
+
+   .. code-block:: python
+
+      some_code_stuff()
+
+   .. note::
+
+      Nobody expects the Spanish Inquisistion
+
+#. Then do spam and ``eggs``.
+
+
+
 Introduction
 ------------
 IDR Searcher is an Elasticsearch-based search engine developed for `IDR <idr.openmicroscopy.org>`_  (Image Data Resource) to index and analyse metadata stored as key–value pairs. It supports both simple lookups and complex queries across large datasets, with synchronous and asynchronous search capabilities.
