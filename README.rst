@@ -29,7 +29,10 @@ The system connects directly to OMERO databases, which run on PostgreSQL and als
 
   .. code-block:: json
 
-      IDR Searcher ignores the OMERO permissions system. It assumes that all data to be indexed and all indexed data are publicly available. Do not run IDR Searcher on authenticated/private OMERO instances.
+      IDR Searcher ignores the OMERO permissions system.
+      It assumes that all data to be indexed
+      and all indexed data are publicly available.
+      Do not run IDR Searcher on authenticated/private OMERO instances.
 
 Although built for IDR, IDR Searcher can be used as a backend search service for any application where data resides in an OMERO database or `supported CSV format <https://github.com/ome/omero_search_engine/tree/main/omero_search_engine/cache_functions/elasticsearch/csv_templates>`_.
 
