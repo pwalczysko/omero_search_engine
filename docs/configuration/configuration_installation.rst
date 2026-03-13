@@ -120,4 +120,6 @@ Index the data using CSV files:
   * The user must add a new data source (CSV) using the ''set_data_source_files'' command inside :omero_search_engine:`commands.py <commands.py>`
   * ``get_index_data_from_csv_files`` is used to read the data, to format it then to push the data to the resource Elasticsearch index. The user can provide a single file (CSV format) or folder. If a folder is specified, the indexer will use all the CSV files inside the folder.
 
-Advanced users and system administrators can perform data indexing operations using dedicated maintenance scripts. The :omero_search_engine:`data_indexing.md <docs/user_guide/data_indexing.md>' document provides guidance on how to execute and manage these operations effectively.
+Index the data using dedicated scripts
+--------------------------------------
+Advanced users and system administrators can perform data indexing operations using dedicated maintenance scripts. The :omero_search_engine:`data_indexing.rst <docs/user_guide/data_indexing.rst>' document provides guidance on how to execute and manage these operations effectively.

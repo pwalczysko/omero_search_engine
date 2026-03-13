@@ -140,6 +140,7 @@ Copyright
 
 2022-2026, The Open Microscopy Environment.
 
+Assuming the installation playbook name is ``install_searchengine.yml``
 
 
 
